@@ -4,6 +4,7 @@
   "description": "You can use the [editor on GitHub](https://github.com/lingamingpc/lingamingpc.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,7 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "mysql": "^2.17.1",
+    "mysql-migrations": "^1.0.6",
     "request": "^2.88.0"
   }
 }
