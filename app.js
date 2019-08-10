@@ -14,9 +14,9 @@ app.use('/news',newsRoute);
 app.use('/products',productRoute);
 app.use('/reviews',reviewRoute);
 app.use('/category',categoryRoute);
-//const   PORT = 3000;
+const   port = 3000;
 
 app.listen(process.env.PORT || 3000,() =>{
-    console.log(`1Server is running at port ${PORT}`);
+    console.log(`1Server is running at port ${port}`);
 })
 
