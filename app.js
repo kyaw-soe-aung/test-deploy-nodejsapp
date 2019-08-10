@@ -17,6 +17,6 @@ app.use('/category',categoryRoute);
 const   port = 3000;
 
 app.listen(process.env.PORT || 3000,() =>{
-    console.log(`1Server is running at port ${port}`);
+    console.log(`Server is running at port ${port}`);
 })
 
