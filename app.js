@@ -15,7 +15,7 @@ app.use('/products',productRoute);
 app.use('/reviews',reviewRoute);
 app.use('/category',categoryRoute);
 
-app.listen(3000,() =>{
-    console.log("Server is running at port 3000");
+app.listen(3306,() =>{
+    console.log("Server is running at port 3306");
 })
 
